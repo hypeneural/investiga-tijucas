@@ -3,6 +3,7 @@ export type BadgeType = 'FORTE' | 'MÉDIA' | 'FRACA' | 'HIPÓTESE' | 'REQUER AUD
 export type AlertType = 'fracionamento' | 'pagamento_direto' | 'nucleo_familiar' | 'anomalia_fim_ano' | 'sincronicidade' | 'credor_transversal' | 'desvio_funcional' | 'societario';
 export type NodeType = 'prefeito' | 'vice' | 'secretario' | 'vereador' | 'funcionario' | 'nucleo_familiar' | 'credor_pf' | 'credor_pj' | 'orgao' | 'alerta';
 export type EdgeType = 'controla_setor' | 'trabalha_em' | 'recebe_pagamento' | 'compartilha_sobrenome' | 'credor_transversal' | 'ligacao_societaria' | 'pagamento_direto' | 'sincronicidade_temporal' | 'fracionamento';
+export type GraphEdgeType = EdgeType;
 
 export interface Target {
   id: string;

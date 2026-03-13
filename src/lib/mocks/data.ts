@@ -257,8 +257,8 @@ export const graphEdges: GraphEdge[] = [
   { id: 'e28', source: 'n-c3', target: 'n-nf3', type: 'ligacao_societaria', weight: 9 },
   { id: 'e29', source: 'n-c8', target: 'n-nf3', type: 'ligacao_societaria', weight: 8 },
   { id: 'e30', source: 'n-c5', target: 'n-nf1', type: 'ligacao_societaria', weight: 8 },
-  { id: 'e31', source: 'n-c4', target: 'n-nf5', type: 'compartilha_sobrenome', weight: 9 },
-  { id: 'e32', source: 'n-c10', target: 'n-nf2', type: 'compartilha_sobrenome', weight: 7 },
+  { id: 'e31', source: 'n-c4', target: 'n-nf5', type: 'compartilha_sobrenome' as const, weight: 9 },
+  { id: 'e32', source: 'n-c10', target: 'n-nf2', type: 'compartilha_sobrenome' as const, weight: 7 },
   { id: 'e33', source: 'n-c9', target: 'n-nf3', type: 'ligacao_societaria', weight: 7 },
   // Alertas
   { id: 'e34', source: 'n-nf1', target: 'n-a1', type: 'fracionamento', weight: 9 },
